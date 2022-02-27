@@ -1,0 +1,111 @@
+body {
+  background-color: #f5f5f5;
+}
+.site-wrapper {
+	width: 1200px;
+	height: 100%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.m-logo {
+	box-sizing: border-box;
+	background-color: #13324DE6;
+	padding: 18px;
+	position: absolute;
+}
+
+.h-video {
+		right: -40px;
+		left: -40px;
+		margin: auto;
+}
+
+@keyframes example {
+  from {opacity: 0};
+  to {opacity: 1}
+}
+
+.text {
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+	font-size: 20px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: white;
+	width: 900px;
+	text-align: center;
+	margin: auto;
+	margin-right:20px;
+	position: relative;
+	top: -750px;
+	animation: example 5s;
+}
+
+.box1 {
+	position: relative;
+	background-color: #f5f5f5;
+	width: 250px;
+	height: 270px;
+	top: -250px;
+	right: -50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 30px;
+}
+.box1 h1 {
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}	
+.box1 p1{
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}
+.box2 {
+	position: relative;
+	background-color: #d3ecf9;
+	width: 250px;
+	height: 200px;
+	top: -559px;
+	right: -350px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 30px;
+}
+.box2 h1 {
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}	
+.box2 p1{
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}
+.box3 {
+	position: relative;
+	background-color: #4db3e6;
+	width: 250px;
+	height: 110px;
+	top: -797px;
+	right: -650px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 30px;
+}
+.box3 h1 {
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}	
+.box3 p1{
+	color: black;
+	font-weight: bold;
+	font-family: Arial, Arial, sans-serif;
+}
